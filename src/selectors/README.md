@@ -1,0 +1,1 @@
+Selectors allow you to get information out of state using a function. This helps ensure that if you change the path to a piece of data that your consumers don't need to care about it - they should all be using the functions in these files instead of pulling data directly from state.

@@ -1,0 +1,34 @@
+{
+    "presets": [
+        ["es2015", { "modules": false }],
+        ["env", { "modules": false }],
+        "react",
+        "stage-0"
+    ],
+    "plugins": [
+        "react-hot-loader/babel",
+        "jsx-display-if",
+        "babel-plugin-encapsulate-jsx",
+        "transform-async-to-generator"
+    ],
+    "env": {
+        "test": {
+            "presets": [
+                [
+                    "env",
+                    {
+                        "modules": "commonjs",
+                        "useBuiltIns": "usage",
+                        "debug": false
+                    }
+                ],
+                "stage-0",
+                "react",
+                "jest"
+            ],
+            "plugins": [
+
+            ]
+        }
+    }
+}
