@@ -1,4 +1,5 @@
 {
+  "parser": "babel-eslint",
   "parserOptions": {
     // Required for certain syntax usages
     "ecmaVersion": 9,
@@ -15,6 +16,8 @@
   "extends": "eslint:recommended",
   "rules": {
     "quotes": ["error", "single"],
+
+    "no-empty-pattern": "warn",
 
     // Removed rule "disallow the use of console" from recommended eslint rules
     "no-console": "off",
