@@ -6,12 +6,12 @@ require('dotenv').config()
 //This will set up a single function as an entire Express app that handles additional routing
 // Initialize Firebase
 // var config = {
-//     apiKey: "AIzaSyBSsf41baHsbFNNM8ZtwEorBDAkfMu3VEM",
-//     authDomain: "memories-ea973.firebaseapp.com",
-//     databaseURL: "https://memories-ea973.firebaseio.com",
-//     projectId: "memories-ea973",
+//     apiKey: "xxx",
+//     authDomain: "xxx",
+//     databaseURL: "xxx",
+//     projectId: "xxx",
 //     storageBucket: "",
-//     messagingSenderId: "465836249868"
+//     messagingSenderId: "xxx"
 // };
 // // noinspection JSUnresolvedVariable, JSUnresolvedFunction
 // firebase.initializeApp(config);
